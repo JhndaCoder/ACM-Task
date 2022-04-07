@@ -1,0 +1,7 @@
+#navbar {
+    display: flex;
+}
+
+.nav-items {
+    margin: 5px;
+}
