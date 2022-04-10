@@ -1,7 +1,12 @@
-#navbar {
-    display: flex;
+.invite-btn {
+    background-image: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 0.5em;
 }
 
-.nav-items {
-    margin: 5px;
+#invite-btn_1 {
+    position: absolute;
+    right: 2em;
 }
