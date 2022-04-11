@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .invite-btn {
     background-image: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     border: none;
@@ -6,7 +11,34 @@
     padding: 0.5em;
 }
 
+.invite-btn:hover {
+    opacity: 0.8;
+    color: white;
+}
+
 #invite-btn_1 {
     position: absolute;
     right: 2em;
 }
+
+.line-hover:hover {
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border-image-slice: 1;
+}
+/* 
+#main-part {
+    overflow: hidden;
+}
+
+#main-img {
+    position: absolute;
+    height: 40rem;
+    width: auto;
+}
+
+#main-bg {
+    position: relative;
+    height: 40rem;
+    z-index: -1;
+} */
