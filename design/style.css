@@ -39,3 +39,12 @@
     right: 0;
     z-index: -1;
 }
+
+.card-title:hover {
+    background: -webkit-linear-gradient(
+            hsl(136, 65%, 51%),
+            hsl(192, 70%, 51%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
