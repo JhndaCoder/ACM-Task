@@ -41,10 +41,23 @@
 }
 
 .card-title:hover {
-    background: -webkit-linear-gradient(
-            hsl(136, 65%, 51%),
+    background: -webkit-linear-gradient(hsl(136, 65%, 51%),
             hsl(192, 70%, 51%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
+}
+
+#foot {
+    background-color: hsl(233, 26%, 24%);
+}
+
+#foot-img {
+    -webkit-filter: invert(100%);
+    /* Safari/Chrome */
+    filter: invert(100%);
+}
+
+.foot-links a {
+    text-decoration: none;
 }
