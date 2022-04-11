@@ -26,19 +26,16 @@
     border-image: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     border-image-slice: 1;
 }
-/* 
+
 #main-part {
+    position: relative;
     overflow: hidden;
 }
 
-#main-img {
-    position: absolute;
-    height: 40rem;
-    width: auto;
-}
-
 #main-bg {
-    position: relative;
-    height: 40rem;
+    position: absolute;
+    height: 100%;
+    width: auto;
+    right: 0;
     z-index: -1;
-} */
+}
